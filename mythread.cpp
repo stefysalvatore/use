@@ -10,7 +10,7 @@ MyThread::MyThread(qintptr ID, QObject *parent) :
 
 void MyThread::run()
 {
-    // thread starts here
+    // thread starts here prova
     qDebug() << " Thread started";
 
     socket = new QTcpSocket();
